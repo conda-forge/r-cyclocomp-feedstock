@@ -14,9 +14,8 @@ Summary: Cyclomatic complexity is a software metric (measurement), used to indic
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-cyclocomp-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-cyclocomp-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-cyclocomp-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-cyclocomp-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-cyclocomp-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-cyclocomp-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-cyclocomp-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-cyclocomp-feedstock)
 
 Current release info
 ====================
