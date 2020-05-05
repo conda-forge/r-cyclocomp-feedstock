@@ -8,7 +8,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: cyclocomp_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/cyclocomp_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cyclocomp/cyclocomp_{{ version }}.tar.gz
@@ -18,7 +17,6 @@ build:
   noarch: generic
   merge_build_host: True  # [win]
   number: 1004
-
   rpaths:
     - lib/R/lib/
     - lib/
@@ -26,7 +24,6 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
-
   host:
     - r-base
     - r-callr
@@ -34,7 +31,6 @@ requirements:
     - r-desc
     - r-remotes
     - r-withr
-
   run:
     - r-base
     - r-callr
@@ -63,9 +59,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
