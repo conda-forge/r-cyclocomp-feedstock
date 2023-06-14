@@ -1,11 +1,11 @@
-About r-cyclocomp
-=================
+About r-cyclocomp-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cyclocomp-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/MangoTheCat/cyclocomp
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cyclocomp-feedstock/blob/main/LICENSE.txt)
 
 Summary: Cyclomatic complexity is a software metric (measurement), used to indicate the complexity of a program. It is a quantitative measure of the number of linearly independent paths through a program's source code. It was developed by Thomas J. McCabe, Sr. in 1976.
 
