@@ -1,4 +1,4 @@
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/cyclocomp_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cyclocomp/cyclocomp_{{ version }}.tar.gz
-  sha256: 9aff06d58bb060e23ac64337a95aebb2c69371b9de5f2549626e3e66acb5b14d
+  sha256: 2e364dcacbdce4a4675eaeb2021a04c03913970e57c2a1d6185c87fdf58ed783
 
 build:
   noarch: generic
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
